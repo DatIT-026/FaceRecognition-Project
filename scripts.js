@@ -44,7 +44,7 @@ async function init() {
   }).showToast();
 
   const trainingData = await loadTrainingData();
-  faceMatcher = new faceapi.FaceMatcher(trainingData, 0.7);
+  faceMatcher = new faceapi.FaceMatcher(trainingData, 0.65);
 
   console.log(faceMatcher);
   document.querySelector("#loading").remove();

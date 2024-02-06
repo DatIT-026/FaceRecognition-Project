@@ -3,22 +3,27 @@ const fileInput = document.querySelector("#file-input");
 
 async function loadTrainingData() {
   const labels = [
-    "HaNguyenTien Dat",
-    "BuiThanh Hai",
-    "NguyenKim Huy",
-    "PhamGia Huy",
+    "HNT Dat",
+    "BT Hai",
+    "NK Huy",
+    "PG Huy",
+    "NTA Tai",
   ];
 
   const faceDescriptors = [];
   for (const label of labels) {
     const descriptors = [];
-    for (let i = 1; i <= 4; i++) {
+    for (let i = 1; i <= 5; i++) {
       const image = await faceapi.fetchImage(`./data/${label}/${i}.jpeg`);
       const detection = await faceapi
         .detectSingleFace(image)
         .withFaceLandmarks()
         .withFaceDescriptor();
-      descriptors.push(detection.descriptor);
+      if (detection) { // Check if face is detected
+        descriptors.push(detection.descriptor);
+      } else {
+        console.error(`Face not detected in ${label}/${i}.jpeg`);
+      }
     }
     faceDescriptors.push(
       new faceapi.LabeledFaceDescriptors(label, descriptors)
@@ -30,6 +35,7 @@ async function loadTrainingData() {
 
   return faceDescriptors;
 }
+
 
 let faceMatcher;
 async function init() {

@@ -4,4 +4,11 @@ Trang web được lập ra với mục đích giải trí, TUYỆT ĐỐI khôn
 The website is created for entertainment, NEVER use it for illegal purposes, contrary to the law.
 
 ### Check out this website: [Here](https://datit-026.github.io/wheel/)
-### For Help, please contact here: https://www.facebook.com/datit.dev/
+
+## Contact us
+- Email: tiendatha2006@gmail.com
+- Social Media: [Facebook](https://www.facebook.com/datit.dev/)
+
+Please feel free to contact me through these channels.
+
+This project is licensed under the [MIT License](LICENSE).

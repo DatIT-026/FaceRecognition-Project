@@ -3,7 +3,8 @@ Trang web được lập ra với mục đích giải trí, TUYỆT ĐỐI khôn
 
 The website is created for entertainment, NEVER use it for illegal purposes, contrary to the law.
 
-### Check out this website: [Here](https://datit-026.github.io/wheel/)
+## Explore more?
+View online demo [here](https://datit-026.github.io/wheel/)
 
 ## Contact us
 - Email: tiendatha2006@gmail.com

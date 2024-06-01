@@ -12,7 +12,7 @@ Trang web được lập ra với mục đích giải trí, TUYỆT ĐỐI khôn
 The website is created for entertainment, NEVER use it for illegal purposes, contrary to the law.
 
 ## Explore more?
-View online demo [here](https://datit-026.github.io/wheel/)
+View online demo [here](https://datit-026.github.io/FaceRecognition-Project/)
 
 ## Contact us
 - Email: tiendatha2006@gmail.com

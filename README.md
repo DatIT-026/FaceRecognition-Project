@@ -7,10 +7,8 @@ This project has no fixed timeline, but we typically conclude a project after 1 
 
 ### How to use it?
 Follow the trial link provided below or [click me](https://datit-026.github.io/FaceRecognition-Project/), wait for a short time while the system loads the models, and then upload a photo of a person for the system to recognize.
-Unfortunately, the project can only recognize 5 predefined models stored in our database. As this is a research-focused project, errors, and limitations are to be expected.
 
-## Caution
-This website is exclusively for entertainment purposes and is not to be used for any illegal activities.
+Unfortunately, the project can only recognize 5 predefined models stored in our database. As this is a research-focused project, errors, and limitations are to be expected.
 
 ## Explore more?
 View online demo [here](https://datit-026.github.io/FaceRecognition-Project/)
@@ -20,5 +18,8 @@ View online demo [here](https://datit-026.github.io/FaceRecognition-Project/)
 - Social Media: [Facebook](https://www.facebook.com/datit.dev/)
 
 Please feel free to reach out to me through these channels.
+
+## Disclaimer
+This project is for research purposes only. Illegal use is strictly prohibited.
 
 This project is licensed under the [MIT License](LICENSE).

@@ -2,8 +2,7 @@
 After February 9, 2025, We will no longer provide security updates or technical support for the Facial Recognition Project.
 
 ## Info
-This is the 7th project in my Crazy Gifts series, and this time, we are proud to introduce *The Facial Recognition Project*.  
-This project was carried out to perform face recognition using pre-trained models in JavaScript.
+This is the 7th project in my **Crazy Gifts** series. We are proud to introduce *The Facial Recognition Project*, designed to perform face recognition using pre-trained models in JavaScript.
 
 ### How to use it?
 Follow the trial link provided below or [click me](https://datit-026.github.io/FaceRecognition-Project/), wait for a short time while the system loads the models, and then upload a photo of a person for the system to recognize.

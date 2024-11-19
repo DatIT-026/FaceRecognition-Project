@@ -1,5 +1,6 @@
 const container = document.querySelector("#container");
 const fileInput = document.querySelector("#file-input");
+let notificationsComplete = false;
 
 async function loadTrainingData() {
   const labels = [
@@ -19,7 +20,7 @@ async function loadTrainingData() {
         .detectSingleFace(image)
         .withFaceLandmarks()
         .withFaceDescriptor();
-      if (detection) { // Check if face is detected
+      if (detection) {
         descriptors.push(detection.descriptor);
       } else {
         console.error(`Face not detected in ${label}/${i}.jpeg`);
@@ -32,7 +33,14 @@ async function loadTrainingData() {
       text: `Training completed for ${label}!`,
       gravity: "bottom",
       position: "left",
-      duration: 3000
+      duration: 3000,
+      callback: () => {
+        // Check if it's the last notification
+        if (label === labels[labels.length - 1]) {
+          notificationsComplete = true;
+          enableUploadButton();
+        }
+      },
     }).showToast();
   }
 
@@ -105,21 +113,29 @@ document.addEventListener("DOMContentLoaded", () => {
   const stopButton = document.getElementById("stop-button");
 
   playButton.addEventListener("click", () => {
-      audio.play();
-      playButton.disabled = true;
-      stopButton.disabled = false;
+    audio.play();
+    playButton.disabled = true;
+    stopButton.disabled = false;
   });
 
   stopButton.addEventListener("click", () => {
-      audio.pause();
-      audio.currentTime = 0; // Reset playback
-      playButton.disabled = false;
-      stopButton.disabled = true;
+    audio.pause();
+    audio.currentTime = 0; // Reset playback
+    playButton.disabled = false;
+    stopButton.disabled = true;
   });
 
   // Reset buttons when audio ends
   audio.addEventListener("ended", () => {
-      playButton.disabled = false;
-      stopButton.disabled = true;
+    playButton.disabled = false;
+    stopButton.disabled = true;
   });
 });
+
+function enableUploadButton() {
+  const uploadButton = document.querySelector("#custom-file-input");
+  const fileInput = document.querySelector("#file-input");
+  uploadButton.classList.remove("disabled");
+  uploadButton.style.backgroundColor = "#007bff";
+  fileInput.disabled = false;
+}

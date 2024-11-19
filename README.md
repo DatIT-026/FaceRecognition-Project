@@ -11,13 +11,13 @@ Follow the trial link provided below or [click me](https://datit-026.github.io/F
 Unfortunately, the project can only recognize 5 predefined models stored in our database. As this is a research-focused project, errors, and limitations are to be expected.
 
 ## Explore more?
-View online demo [here](https://datit-026.github.io/FaceRecognition-Project/)
+View online demo [here](https://datit-026.github.io/FaceRecognition-Project/).
 
 ## Contact us
+Please feel free to reach out to me through these channels.
+
 - Email: tiendatha2006@gmail.com
 - Social Media: [Facebook](https://www.facebook.com/datit.dev/)
-
-Please feel free to reach out to me through these channels.
 
 ## Disclaimer
 This project is for research purposes only. Illegal use is strictly prohibited.

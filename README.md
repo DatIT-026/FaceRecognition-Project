@@ -1,4 +1,4 @@
-# ⚠️ Support for the Facial Recognition Project will end in February 2025
+# ⚠️ Support for the Facial Recognition Project has ended
 After February 9, 2025, We will no longer provide security updates or technical support for the Facial Recognition Project.
 
 ## Info
@@ -10,7 +10,7 @@ Follow the trial link provided below or [click me](https://datit-026.github.io/F
 Unfortunately, the project can only recognize 5 predefined models stored in our database. As this is a research-focused project, errors, and limitations are to be expected.
 
 ## Explore more?
-View online demo [here](https://datit-026.github.io/FaceRecognition-Project/).
+View online demo [here](https://datit-026.github.io/DatIT/404).
 
 ## Contact us
 Please feel free to reach out to me through these channels.
